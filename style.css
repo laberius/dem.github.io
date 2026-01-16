@@ -57,10 +57,26 @@ body {
         }
 
 
-$brand-color: #8a2be2;          // фиолетовый
-$brand-color-light: #d8b4ff;
-$brand-color-dark: #5a0e9e;
+---
+---
 
-$background-color: #fdf6ff;
-$text-color: #222;
+@import "minima";
+
+body {
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+}
+
+h1, h2, h3, .post-title {
+  color: #d4af37; /* золотой */
+}
+
+a {
+  color: #bb86fc; /* фиолетовый (Material You) */
+}
+
+.site-header, .page-content {
+  background-color: #16213e;
+}
+
 
