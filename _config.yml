@@ -1,3 +1,7 @@
 title: Структура доменного имени
 description: Блог о том, из каких частей состоит доменное имя и как устроена его иерархия.
-theme: jekyll-theme-minimal
+theme: minima
+
+# Настройка цветов
+minima:
+  skin: dark
