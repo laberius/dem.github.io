@@ -1,7 +1,12 @@
-@font-face {
-  font-family: 'Pudelinka';
-  src: url('Pudelinka.ttf') format('truetype');
-}
+<style>
+  @font-face {
+    font-family: 'Pudelink';
+    src: url('fonts/pudelink.woff2') format('woff2');
+  }
+  body {
+    font-family: 'Pudelink', sans-serif;
+  }
+</style>
 
 body {
             font-family: 'Arial', sans-serif;
